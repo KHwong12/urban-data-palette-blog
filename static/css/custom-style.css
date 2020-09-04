@@ -1,0 +1,9 @@
+
+/* Smaller image size and place in centre */
+/* Override basic !important */
+
+.post_inner img {
+  width: 80% !important;
+  display: block !important;
+  max-width: 1024px !important;
+}
