@@ -1,7 +1,7 @@
 baseurl = "https://example.com/"  # Include trailing slash
 title = "Newsroom"
 theme = "newsroom"
-author = "Weru"
+author = "Kenneth Wong"
 copyright = "Copyright © 2019, Weru and the Hugo Authors; all rights reserved."
 canonifyurls = true
 paginate = 6
@@ -9,7 +9,7 @@ paginate = 6
 # comment or delete lines 11 ~ 14
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses=true
+pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 
 # Alternatively, you can use chroma instead of pigments
