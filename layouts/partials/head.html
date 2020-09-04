@@ -11,6 +11,13 @@
   {{- partial "favicon" . }}
   <link rel='canonical' href='{{ .Permalink }}'>
 
+  <!-- cdn fonts and icons -->
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  </noscript>
+
+
   <!-- custom css -->
   {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
