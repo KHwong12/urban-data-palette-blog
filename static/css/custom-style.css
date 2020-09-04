@@ -1,9 +1,11 @@
 
 /* Smaller image size and place in centre */
-/* Override basic !important */
 
-.post_inner img {
-  width: 80% !important;
+/* Override basic with !important
+Not select the thumbnail picture with not(.post_thumbnail)  */
+
+.post_inner img:not(.post_thumbnail) {
+  width: 70% !important;
   display: block !important;
   max-width: 1024px !important;
 }
