@@ -8,8 +8,9 @@ categories: ["Spatial Analysis"]
 tags:
   - Census Tract
   - Hong Kong
-  - regression
-image: "https://cdn-images-1.medium.com/max/1600/1*COXCAs4jr15Et9HEquDZ6A.gif"
+  - Spatial Analysis
+  - MAUP
+image: "../post/2020-03-census-unit-wrong/Census_ResBldgs.jpg"
 ---
 
 Land doesn't travel, people do.

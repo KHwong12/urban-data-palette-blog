@@ -4,11 +4,11 @@ subtitle: "Pseudo-, not-so-historic ferry services map"
 description: ""
 date: 2020-09-02T22:02:13+08:00
 draft: true
-categories: ["Cartography"]
+categories: ["Cartography", "Step-by-step Tutorial"]
 tags:
   - Cartography
-  - plot
-  - regression
+  - Hong Kong
+  - Map
 image: "../post/2020-09-stale-map/ferry_FINAL_min.jpg"
 ---
 
@@ -39,7 +39,7 @@ This map is indeed just some tasks on data collection and symbology adjusting. I
 
 I get the location of ferry piers and the ferry routes from OpenStreetMap data, using [Overpass Turbo](https://overpass-turbo.eu/).
 
-<!-- ![01_OverpassData]( /post/2020-09-stale-map/01_OverpassData.png) -->
+<!-- ![01_OverpassData](/post/2020-09-stale-map/01_OverpassData.png) -->
 
 {{< figure src="/post/2020-09-stale-map/01_OverpassData.png" alt="01_OverpassData" height="30%" width="30%" >}}
 
@@ -69,9 +69,8 @@ The waterfront I used, sadly, is from the basemap provided by the Lands Departme
 
 Let's throw all the routes and pier data into ArcGIS Pro. (Use `JSON To Features` function to import those geojsons downloaded from Overpass Turbo!) As I am only interested in the ferry routes in the Victoria Harbour, I created a subset of data by manually select and click on the lines and points.
 
+<!-- ![02_LoadData](/post/2020-09-stale-map/02_LoadData.png) -->
 {{< figure src="/post/2020-09-stale-map/02_LoadData.png" alt="02_LoadData" height="30%" width="30%" >}}
-
-<!-- ![02_LoadData]( /post/2020-09-stale-map/02_LoadData.png) -->
 
 ### Symbology
 
@@ -85,11 +84,11 @@ Below is the symbology I used. You could try fine-tuning the size and use other 
 - Routes: Fine Red Line, 1.75pt
 - Piers: Ring Red, 12pt
 
-![03_Symbology]( /post/2020-09-stale-map/03_Symbology.png)
+![03_Symbology](/post/2020-09-stale-map/03_Symbology.png)
 
 This is how the map goes after changing the symbologies. Already some nostalgic vibes going around the screen I guess?
 
-![06_SymbologyChanged]( /post/2020-09-stale-map/06_SymbologyChanged.png)
+![06_SymbologyChanged](/post/2020-09-stale-map/06_SymbologyChanged.png)
 
 ### Layout
 
@@ -97,7 +96,7 @@ Time to export the map. Create a 45cm x 15cm layout and add a map frame of the c
 
 After that, change the background of the map frame from transparent to a paper background, which is also available in the Pen and Ink style. This is how it goes...
 
-![07_LayoutFormat]( /post/2020-09-stale-map/07_LayoutFormat.png)
+![07_LayoutFormat](/post/2020-09-stale-map/07_LayoutFormat.png)
 
 What left is only adding labels and some post-editing.
 
@@ -109,19 +108,19 @@ To facilitate the progress and save the export time, I exported **TWO** maps. Th
 
 Export the labels and text layers as **pdf** (not jpg/png!). Import the pdf file to Illustrator and this is the initial mess we left in ArcGIS Pro.
 
-![10_AILabelBefore]( /post/2020-09-stale-map/10_AILabelBefore.png)
+![10_AILabelBefore](/post/2020-09-stale-map/10_AILabelBefore.png)
 
 Manually move and resize the labels to desired locations instead of the default location ArcGIS rendered. Besides, remove redundant labels. Say, the *Star Ferry Pier* appeared several times (as there are multiple piers in Tsim Sha Tsui Star Ferry Pier, of course). I removed those duplicated and moved the label to the inland area. Here's how it looks like after dragging the labels...
 
-![11_AILabelAfter]( /post/2020-09-stale-map/11_AILabelAfter.png)
+![11_AILabelAfter](/post/2020-09-stale-map/11_AILabelAfter.png)
 
 When it's all good, copy the labels and extra texts and paste as a *vector smart object layer* in Photoshop.
 
-![12_PSLabelOnly]( /post/2020-09-stale-map/12_PSLabelOnly.png)
+![12_PSLabelOnly](/post/2020-09-stale-map/12_PSLabelOnly.png)
 
 Add the other map we exported earlier to Photoshop and Eureka!
 
-![13_PS_FINAL]( /post/2020-09-stale-map/13_PS_FINAL.png)
+![13_PS_FINAL](/post/2020-09-stale-map/13_PS_FINAL.png)
 
 **NOTE**: Normally, you should be able to post-edit solely in AI (i.e. just export the one single map including all layers, then edit only the label layer). However, my AI automatically removes the ripple lines when reading the file (some unknown bugs maybe). Thus, I take this "two software" detour.
 
@@ -132,4 +131,4 @@ Add the other map we exported earlier to Photoshop and Eureka!
 And this is how I make a not-so-historic ferry map. To be honest, the time used for screenshotting and writing this article takes much longer than merely making the map.
 Let the mapping journey continues.
 
-![IGPost]( /post/2020-09-stale-map/IGPost.png)
+![IGPost](/post/2020-09-stale-map/IGPost.png)

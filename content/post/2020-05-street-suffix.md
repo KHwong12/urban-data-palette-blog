@@ -7,12 +7,16 @@ draft: true
 categories: ["Cartography"]
 tags:
   - Cartography
+  - Data Visualisation
   - Urban Studies
-  - regression
+  - Hong Kong
 image: "../post/2020-05-street-suffix/CoreUrban_CHIENG.png"
 ---
 
-![CoreUrban_CHIENG](/post/2020-05-street-suffix/CoreUrban_CHIENG.png)
+How do you like the street naming? On maps.
+<!--more-->
+
+<!-- ![CoreUrban_CHIENG](/post/2020-05-street-suffix/CoreUrban_CHIENG.png) -->
 
 ## TL;DR
 
