@@ -1,13 +1,18 @@
 
+/* Size of cover image in post */
+
 /* Smaller image size and place in centre */
 
 /* Override basic with !important
 Not select the thumbnail picture with not(.post_thumbnail)  */
-
 .post_inner img:not(.post_thumbnail) {
   width: 70% !important;
   display: block !important;
-  max-width: 1024px !important;
+  max-width: 100% !important;
+}
+
+.post_thumbnail {
+  max-width: 100% !important;
 }
 
 /* Icon button */
