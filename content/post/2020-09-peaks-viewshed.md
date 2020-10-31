@@ -3,7 +3,7 @@ title: "Viewshed From Peaks"
 date: 2020-09-13T19:47:11+08:00
 subtitle: "Interactive web application"
 description: ""
-draft: true
+draft: false
 categories: ["Web Map", "Interactive", "Spatial Analysis"]
 tags:
   - ArcGIS API for Javascript

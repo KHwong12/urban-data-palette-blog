@@ -3,7 +3,7 @@ title: "Street Suffixes in Hong Kong"
 subtitle: "How do you like the street naming?"
 description: ""
 date: 2020-09-02T22:02:13+08:00
-draft: true
+draft: false
 categories: ["Cartography"]
 tags:
   - Cartography

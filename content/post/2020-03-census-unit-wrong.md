@@ -3,7 +3,7 @@ title: "Census Boundary Maps are lying to you"
 subtitle: "Land doesn't travel, people do"
 description: ""
 date: 2020-03-27
-draft: true
+draft: false
 categories: ["Spatial Analysis"]
 tags:
   - Census Tract

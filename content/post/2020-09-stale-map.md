@@ -3,7 +3,7 @@ title: "How to make a stale map in ArcGIS Pro"
 subtitle: "Pseudo-, not-so-historic ferry services map"
 description: ""
 date: 2020-09-02T22:02:13+08:00
-draft: true
+draft: false
 categories: ["Cartography", "Step-by-step Tutorial"]
 tags:
   - Cartography
@@ -63,7 +63,11 @@ out skel qt;
 
 ### Waterfront
 
-The waterfront I used, sadly, is from the basemap provided by the Lands Department. It's just because I am too lazy to query OpenStreetMap data when I have already got some official one. You could still use OpenStreetMap data when you want to have a try!
+The waterfront I used, is from the basemap provided by the Lands Department. You could download the digital map open data from here:
+
+https://data.gov.hk/en-data/dataset/hk-landsd-openmap-b50k-topographic-map-of-hong-kong
+
+Still, you could still use OpenStreetMap data when you want to have a try!
 
 ## Part II: ArcGIS Pro
 
@@ -128,7 +132,6 @@ Add the other map we exported earlier to Photoshop and Eureka!
 
 ## Hiatus
 
-And this is how I make a not-so-historic ferry map. To be honest, the time used for screenshotting and writing this article takes much longer than merely making the map.
-Let the mapping journey continues.
+And this is how I make a not-so-historic ferry map. To be honest, the time used for taking screenshots and writing this article takes much longer than merely making the map.
 
 ![IGPost](/post/2020-09-stale-map/IGPost.png)

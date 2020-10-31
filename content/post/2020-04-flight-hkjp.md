@@ -3,7 +3,7 @@ title: "Home Sweet Home to Homeless"
 subtitle: "See how coronavirus pulls down number of flights between Hong Kong and Japan"
 description: ""
 date: 2020-04-26
-draft: true
+draft: false
 categories: ["Cartography"]
 tags:
   - Flights
