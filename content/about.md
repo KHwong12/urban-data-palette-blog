@@ -60,8 +60,10 @@ I created project and want to write a longer explanation then README (e.g. motiv
 > **Cities, Data, Maps.**  
 > Palette, Pigments, Paintings.
 
-I always perceive myself as an urbanist. I love the metropolitan lifestyle and randomly wandering across the alleyways and small streets in the town.  
-I am also a map nerd. I love reading and collecting maps since my childhood. I never thought of making maps as a profession until the first time I tried GIS.  
-I love maths and statistics, even though I actually suck at it. Wrangling data is probably one of my useless hobbies.
+I always perceive myself as an urbanist. I love the metropolitan lifestyle and randomly wandering across the alleyways and small streets in the town.
+
+I am also a map nerd. I love reading and collecting maps since my childhood. I never thought of making maps as a profession until the first time I tried GIS.
+
+I love maths and statistics, even though I actually suck at it. Wrangling data is one of my useless hobbies.
 
 So, yea, the website name comes from the three things I love most. And I just use the term *palette* to make things a little bit sexier (hope it does).
