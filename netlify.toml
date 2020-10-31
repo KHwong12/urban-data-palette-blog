@@ -1,8 +1,11 @@
 [build]
-publish = "public"  # default hugo build folder
-command = "hugo --gc --minify" # hugo build command
+  publish = "public"  # default hugo build folder
+  command = "hugo --gc --minify" # hugo build command
+
+# --gc        run some cleanup tasks (remove unused cache files) after the build
+# --minify    minify any supported output format (HTML, XML etc.)
 
 [context.production.environment]
-HUGO_VERSION = "0.75.1"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.75.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"

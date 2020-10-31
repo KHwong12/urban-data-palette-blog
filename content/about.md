@@ -2,8 +2,8 @@
 title: "About Me"
 subtitle: ""
 description: ""
-date: 2020-04-26
-draft: true
+date: 2020-11-01T00:00:00+08:00
+draft: false
 image: ""
 ---
 
@@ -24,33 +24,32 @@ My full personal website and portfolio is in https://kennethwong12.netlify.app/.
 
 ---
 
-Things and paragraphs in this blog (mostly) falls into the following categories:
+Things in this blog falls into the following categories:
 
-1. Technical Article
+### 1. Technical Article
 
 A learning note to explain the technical concepts like understanding format of YAML etc.
 
 https://pjchender.blogspot.com/2015/03/cssmultiple-selectorsspace.html
 
-2. Understanding GIS concepts
+### 2. Understanding GIS concepts
 
 Also learning note, yet focused on the theoretical concepts like
 
-3. Project - journal-like article
+### 3. Project - journal-like article
 
 Map and data essays. Those you will see on Washington Post/New York Times
 
-4. Project - how to make
+### 4. Project - how to make
 
 A how to make tutorial
 
 I aim to write something like this:
 https://anitagraser.com/2016/12/18/details-of-good-flow-maps/
 
+### 5. Project - behind the science
 
-5. Project Notes
-
-I created project and want to write a longer explanation then README (e.g. motivation behind, the processes during the development)
+I created project and want to write a longer explanation then README (e.g. motivation behind, the processes during the development). Or there needs some additional explanations.
 
 ---
 
@@ -65,6 +64,4 @@ I always perceive myself as an urbanist. I love the metropolitan lifestyle and r
 I am also a map nerd. I love reading and collecting maps since my childhood. I never thought of making maps as a profession until the first time I tried GIS.  
 I love maths and statistics, even though I actually suck at it. Wrangling data is probably one of my useless hobbies.
 
-So, yea, the website name comes from the three things I love most. And I just use the term *palette* to make things a little bit sexier (Hope it was).
-
-### What does the website name mean?
+So, yea, the website name comes from the three things I love most. And I just use the term *palette* to make things a little bit sexier (hope it does).
