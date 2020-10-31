@@ -24,6 +24,9 @@ Not select the thumbnail picture with not(.post_thumbnail)  */
 .btn.btn-default {
   color: #ffffff !important;
   box-shadow: 0rem 0rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: table !important;
 }
 
 
