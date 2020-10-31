@@ -7,20 +7,50 @@ draft: true
 image: ""
 ---
 
-> **Urban, Pigments, Maps, Palette, Data, Paintings.**
-
-## About Me
-
 {{< figure src="/images/propic.jpg" height="30%" width="30%" >}}
 
+> **Urban, Pigments, Maps, Palette, Data, Paintings.**
 
-{{% button href="https://khwong12.github.io/HK_Peaks/" icon="fas fa-map" %}}**Play the Interactive Map**{{% /button %}}
+I'm Kenneth. Here's a list of title I would describe myself:
 
-I am currently a research assistant at the University of Hong Kong (HKU). I hold an M.Sc in Urban Planning and B.A. in Urban Studies from HKU. I am currently responsible for spatial data manipulation, analysis and visualisation tasks for various urban planning/analytics projects. The end products are mostly maps and charts, in the form of [academic paper](https://doi.org/10.1177/2399808320932575), [blog articles](https://medium.com/@khwongk12/double-ageing-mapped-9509a410d20b?source=friends_link&sk=94ab295e3d8a8c0d7fcc460998abcec6), [interactive web applications](https://khwong12.github.io/HK_Peaks/) and [static maps and gifs](https://github.com/KHwong12/dataviz).
+- A Hongkonger
+- A mapmaker
+- An urbanist
+- A data analyst specialised on urban analytics/spatial data science
 
-The major tools I use are `Geographic Information System (GIS)`, `R` and `Python`. Data-driven analysis and visualisations, both spatial and non-spatial, always fascinate me. With my background in urban planning, I analyse and write about urban and cities, throwing the light on spatial/urban data science.
+The tools in my analysis toolbox are usually `Geographic Information System (GIS)`, `R` and `Python`.
 
 My full personal website and portfolio is in https://kennethwong12.netlify.app/.
+
+---
+
+Things and paragraphs in this blog (mostly) falls into the following categories:
+
+1. Technical Article
+
+A learning note to explain the technical concepts like understanding format of YAML etc.
+
+https://pjchender.blogspot.com/2015/03/cssmultiple-selectorsspace.html
+
+2. Understanding GIS concepts
+
+Also learning note, yet focused on the theoretical concepts like
+
+3. Project - journal-like article
+
+Map and data essays. Those you will see on Washington Post/New York Times
+
+4. Project - how to make
+
+A how to make tutorial
+
+I aim to write something like this:
+https://anitagraser.com/2016/12/18/details-of-good-flow-maps/
+
+
+5. Project Notes
+
+I created project and want to write a longer explanation then README (e.g. motivation behind, the processes during the development)
 
 ---
 
@@ -36,3 +66,5 @@ I am also a map nerd. I love reading and collecting maps since my childhood. I n
 I love maths and statistics, even though I actually suck at it. Wrangling data is probably one of my useless hobbies.
 
 So, yea, the website name comes from the three things I love most. And I just use the term *palette* to make things a little bit sexier (Hope it was).
+
+### What does the website name mean?
