@@ -8,11 +8,12 @@ Not select the thumbnail picture with not(.post_thumbnail)  */
 .post_inner img:not(.post_thumbnail) {
   width: 70% !important;
   display: block !important;
-  max-width: 100% !important;
+  max-width: 70% !important;
+  display: block; /* align to center */
 }
 
 .post_thumbnail {
-  max-width: 100% !important;
+  max-width: 80% !important;
 }
 
 /* Icon button */
