@@ -1,4 +1,4 @@
-baseurl = ""  # Include trailing slash
+baseurl = "/"  # Need trailing slash at start to cover all pages
 title = "Urban Data Palette"
 theme = "newsroom"
 author = "Kenneth Wong"
