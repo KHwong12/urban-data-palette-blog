@@ -39,7 +39,9 @@ pygmentsOptions = "linenos=table"
 
   # Create custom css with adding new lines in head.html
   # https://blog.risingstack.com/static-site-generator-hugo-netlify
-  custom_css = ["css/custom-style.css"]
+  # Now changed to override exisiting scss by adding assets folder
+  # https://discourse.gohugo.io/t/overriding-theme-styles/18299/2
+  # custom_css = ["css/custom-style.css"]
 
   # mainSections = ["blog", "docs"] #see https://gohugo.io/functions/where/#mainsections
   # uncomment the line below will disable darkmode by default.

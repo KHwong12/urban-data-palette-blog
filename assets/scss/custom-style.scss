@@ -1,0 +1,65 @@
+/* override default scss */
+
+/* Size of cover image in post */
+.post_thumbnail {
+  max-width: 100%;
+}
+
+/* Size of other images in post */
+/* Not select the thumbnail picture with not(.post_thumbnail)  */
+.post_inner img:not(.post_thumbnail) {
+  /* width: 70%; /* Smaller image size */
+  max-width: 80%;
+  display: block; /* align to center */
+}
+
+/* Just for propfile pic in about page */
+.propic {
+  max-width: 30%;
+}
+
+/* Icon button */
+.btn.btn-default {
+  color: #ffffff; /* Change inner text to white */
+  box-shadow: 0rem 0rem; /* disable drop shadow */
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+
+/* Add space before headings */
+
+h2 {
+  margin-top: 3rem;
+  font-weight: 700;
+}
+
+h3, h4, h5 {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+
+/* Custom fonts from google */
+
+.nav-brand {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.post_title {
+  font-family: 'Volkhov', serif;
+  font-size: 300%;
+}
+
+/* serif in post only, not in preview */
+.post_body p:not(.post_date), ol, ul {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
