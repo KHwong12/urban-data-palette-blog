@@ -2,21 +2,21 @@
 title: "About Me"
 subtitle: ""
 description: ""
-date: 2020-11-01T00:00:00+08:00
+date: 
 draft: false
 image: ""
 ---
 
-{{< figure src="/images/propic.jpg" height="30%" width="30%" >}}
+{{< figure src="/images/propic.jpg" max-height="30%" max-width="30%" class="propic">}}
 
 > **Urban, Pigments, Maps, Palette, Data, Paintings.**
 
 I'm Kenneth. Here's a list of title I would describe myself:
 
-- A Hongkonger
-- A mapmaker
-- An urbanist
-- A data analyst specialised on urban analytics/spatial data science
+* ~ A Hongkonger
+* ~ A mapmaker
+* ~ An urbanist
+* ~ A data analyst specialised on urban analytics/spatial data science
 
 The tools in my analysis toolbox are usually `Geographic Information System (GIS)`, `R` and `Python`.
 
@@ -34,11 +34,11 @@ https://pjchender.blogspot.com/2015/03/cssmultiple-selectorsspace.html
 
 ### 2. Understanding GIS concepts
 
-Also learning note, yet focused on the theoretical concepts like
+Also learning note, yet focused on the theoretical concepts.
 
 ### 3. Project - journal-like article
 
-Map and data essays. Those you will see on Washington Post/New York Times
+Map and data essays. Those you will see on Washington Post/New York Times.
 
 ### 4. Project - how to make
 

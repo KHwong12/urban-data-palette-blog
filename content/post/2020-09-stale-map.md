@@ -12,7 +12,7 @@ tags:
 image: "../post/2020-09-stale-map/ferry_FINAL_min.jpg"
 ---
 
-The summary
+Pseudo-, not-so-historic ferry services map
 
 <!--more-->
 

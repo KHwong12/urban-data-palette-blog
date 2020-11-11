@@ -1,10 +1,10 @@
 ---
 title: "Street Suffixes in Hong Kong"
-subtitle: "How do you like the street naming?"
+subtitle: "Visualising and analysing the distribution of street names"
 description: ""
-date: 2020-09-02T22:02:13+08:00
+date: 2020-05-29
 draft: false
-categories: ["Cartography"]
+categories: ["Map Essay","Cartography"]
 tags:
   - Cartography
   - Data Visualisation
@@ -98,7 +98,7 @@ So, what are the spatial patterns of the street suffix? Let's continue...
 
 This is an interactive web map colouring the carriageways in Hong Kong by its Chinese and English street suffix.
 
-https://foa-hku.maps.arcgis.com/apps/Compare/index.html?appid=aa9509f071e943edaa926f2159568ea0
+{{% button href="https://arcg.is/SviOu" icon="fas fa-map" %}}**Play the Interactive Map**{{% /button %}}
 
 The map on the left-hand side colours the street by their CHINESE street suffix, while the one on the right-hand side is coloured by ENGLISH street suffix. Two maps are synchronised - when you drag on either map, both windows will move/zoom to the same area. You can do some side-by-side comparisons with this application.
 

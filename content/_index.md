@@ -2,7 +2,7 @@
 title: ""
 subtitle: ""
 description: ""
-date: 2020-09-02T22:02:13+08:00
+date: 2020-09-02
 draft: false
 categories: ["", ""]
 tags:

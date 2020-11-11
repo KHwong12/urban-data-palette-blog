@@ -2,7 +2,9 @@
 
 /* Size of cover image in post */
 .post_thumbnail {
-  max-width: 100%;
+  max-width: 90%;
+  display: flex;
+  margin: 0.5rem auto; /* vertical | horizontal */
 }
 
 /* Size of other images in post */
@@ -10,21 +12,31 @@
 .post_inner img:not(.post_thumbnail) {
   /* width: 70%; /* Smaller image size */
   max-width: 80%;
-  display: block; /* align to center */
+  // https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+  display: flex;
+  margin: 0.5rem auto;
+  // or use following
+  // display: block; /* align to center */
   box-shadow: 0rem 0rem; /* disable drop shadow */
+}
+
+.youtube-player {
+  display: flex;
+  margin: 0.5rem auto;
 }
 
 /* Just for propfile pic in about page */
 .propic {
   max-width: 40%;
+  display: flex;
+  margin: 0.5rem auto;
 }
 
 /* Icon button */
 .btn.btn-default {
   color: #ffffff; /* Change inner text to white */
   box-shadow: 0rem 0rem; /* disable drop shadow */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0.5rem auto 0.5rem inherit; /* top | right | bottom | left */
   display: table;
 }
 
