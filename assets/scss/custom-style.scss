@@ -11,11 +11,12 @@
   /* width: 70%; /* Smaller image size */
   max-width: 80%;
   display: block; /* align to center */
+  box-shadow: 0rem 0rem; /* disable drop shadow */
 }
 
 /* Just for propfile pic in about page */
 .propic {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 /* Icon button */
@@ -53,13 +54,27 @@ body {
 }
 
 .post_title {
-  font-family: 'Volkhov', serif;
+  // font-family: 'Volkhov', serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 1000;
   font-size: 300%;
+
+  // Temp solution to remove space between title and post_subtitle
+  margin-bottom: -24px;
 }
+
+.post_subtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #222222;
+}
+
+
 
 /* serif in post only, not in preview */
 .post_body p:not(.post_date), ol, ul {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.2rem;
+  // font-size: 1.2rem;
+  font-size: 16 px;
   line-height: 1.8;
 }
