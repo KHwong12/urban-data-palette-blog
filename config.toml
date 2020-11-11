@@ -6,6 +6,13 @@ copyright = "Copyright © Kenneth Wong 2020."
 canonifyurls = true
 paginate = 6
 
+# Enable raw html
+# https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Enable syntax highlighting
 # comment or delete lines 11 ~ 14
 pygmentsCodefences = true
