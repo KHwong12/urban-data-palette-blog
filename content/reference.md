@@ -1,7 +1,8 @@
-+++
-title = "About Hugo"
-date = "2014-04-09"
-image = 'street.jpg'
-+++
+---
+title: "Reference"
+type: "non-post"
+---
+
+# Reference List
 
 A continuous and growing list of references I found useful.

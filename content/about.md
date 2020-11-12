@@ -1,11 +1,9 @@
 ---
 title: "About Me"
-subtitle: ""
-description: ""
-date: 
-draft: false
-image: ""
+type: "non-post"
 ---
+
+# About Me
 
 {{< figure src="/images/propic.jpg" max-height="30%" max-width="30%" class="propic">}}
 
@@ -36,18 +34,18 @@ https://pjchender.blogspot.com/2015/03/cssmultiple-selectorsspace.html
 
 Also learning note, yet focused on the theoretical concepts.
 
-### 3. Project - journal-like article
+### 3. Map Essays
 
-Map and data essays. Those you will see on Washington Post/New York Times.
+Map and data essays, journal like articles. Those you will see on Washington Post/New York Times.
 
-### 4. Project - how to make
+### 4. How-to-make Tutorial
 
 A how to make tutorial
 
 I aim to write something like this:
 https://anitagraser.com/2016/12/18/details-of-good-flow-maps/
 
-### 5. Project - behind the science
+### 5. Behind the scene
 
 I created project and want to write a longer explanation then README (e.g. motivation behind, the processes during the development). Or there needs some additional explanations.
 
