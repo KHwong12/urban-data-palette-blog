@@ -21,13 +21,13 @@ A small follow-up on the old stale map, with a new scale bar
 
 <!-- TODO: repsonsive for mobile phones -->
 <iframe class="youtube-player" type="text/html"
-        src="http://www.youtube.com/embed/eJPHQCGjvuQ" start=0 allowfullscreen frameborder="0">
+        src="https://www.youtube.com/embed/eJPHQCGjvuQ" start=0 allowfullscreen frameborder="0">
 </iframe>
 
 <br>
 
 <iframe class="youtube-player" type="text/html"
-        src="http://www.youtube.com/embed/eTQTvP7QqfA" start=0 allowfullscreen frameborder="0">
+        src="https://www.youtube.com/embed/eTQTvP7QqfA" start=0 allowfullscreen frameborder="0">
 </iframe>
 
 I then followed the guides and replicated the same scale bar style in my original stale map project. At least it doesn't look bad. The red fill colours may need some further refinements - the fill looks a bit too perfect for me. I sort of want the fill to be "scrapped off" a bit with only the colour of the paper left behind.
