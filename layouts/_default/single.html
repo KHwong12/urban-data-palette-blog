@@ -5,9 +5,22 @@
       <p class = 'post_date pale'>{{ $date }}</p>
       <h1 class = 'post_title'>{{ .Title }}</h1>
       <h3 class = 'post_subtitle'>{{ .Params.subtitle }}</h3>
-      <!-- https://kodify.net/hugo/strings/reading-time-text/ -->
       <p>
-        {{ math.Round (div (countwords .Content) 220.0) }}-min read / TAGS
+        <span class = 'word_count'>
+          <i class="fas fa-pencil-alt fa-fw"></i>
+          {{ countwords .Content }} words |
+        </span>
+        <span class = 'reading_time'>
+          <!-- https://kodify.net/hugo/strings/reading-time-text/ -->
+          <i class="far fa-clock fa-fw"></i>
+          {{ math.Round (div (countwords .Content) 220.0) }}-min read |
+        </span>
+        <span class = 'tags'>
+          <i class="fas fa-tags"></i>
+          {{ range .Params.tags }}
+            {{ . }},
+          {{ end }}
+        </span>
       </p>
       <br>
       <div class = 'post_body'>
