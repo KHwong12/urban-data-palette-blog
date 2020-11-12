@@ -5,7 +5,8 @@ type: "non-post"
 
 # About Me
 
-{{< figure src="/images/propic.jpg" max-height="30%" max-width="30%" class="propic">}}
+<!-- {{< figure src="/images/propic.jpg" height="240px" width="240px" class="propic">}} -->
+<img src="/images/propic.jpg" zoom="30%" class="propic">
 
 I'm Kenneth. Here's a list of title I would describe myself:
 

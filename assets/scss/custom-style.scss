@@ -2,39 +2,67 @@
 
 /* Size of cover image in post */
 .post_thumbnail {
-  max-width: 90%;
+  // Following excerpted from _posts.scss
+  max-width: 1024px !important;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  margin: 0.5rem auto; /* vertical | horizontal */
+  justify-content: space-between;
+  flex-flow: row wrap;
+  // width: 100%;
+  align-items: stretch;
+}
+
+/* Just for propfile pic in about page */
+.propic {
+  /* width: 70%; /* Smaller image size */
+  max-width: 400px !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  // width: 100%;
+  align-items: stretch;
+
+  box-shadow: none !important; /* disable drop shadow */
 }
 
 /* Size of other images in post */
 /* Not select the thumbnail picture with not(.post_thumbnail)  */
 .post_inner img:not(.post_thumbnail) {
-  /* width: 70%; /* Smaller image size */
-  max-width: 80%;
-  // https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+  max-width: 720px;
+
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  margin: 0.5rem auto;
-  // or use following
-  // display: block; /* align to center */
-  box-shadow: 0rem 0rem; /* disable drop shadow */
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: stretch;
+
+  // // https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+  // display: flex;
+  // margin: 0.5rem auto;
+  box-shadow: none !important; /* disable drop shadow */
 }
 
-.youtube-player {
+// <!-- TODO: repsonsive for mobile phones -->
+.youtube_video {
+  // Following excerpted from _posts.scss
+  max-width: 720px !important;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  margin: 0.5rem auto;
-  width: 640px;
-  height: 385px;
-}
+  justify-content: space-between;
+  flex-flow: row wrap;
+  // width: 100%;
+  align-items: stretch;
 
-/* Just for propfile pic in about page */
-.propic {
-  max-width: 40%;
-  display: flex;
-  margin: 0.5rem auto;
+  width: 80%;
 }
 
 /* Icon button */
+// TODO: align with p, not left-hand side
 .btn.btn-default {
   color: #ffffff; /* Change inner text to white */
   box-shadow: 0rem 0rem; /* disable drop shadow */
@@ -44,7 +72,7 @@
 
 // Code Snippets
 div.highlight {
-  max-width: 840px;
+  max-width: 720px !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,10 +98,12 @@ h3, h4, h5 {
 
 
 /* Custom fonts from google */
-
-.nav-brand {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
+.nav{
+  &-brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em !important;
+    font-weight: 900;
+  }
 }
 
 body {
@@ -83,11 +113,13 @@ body {
 .post_title {
   // font-family: 'Volkhov', serif;
   font-family: 'Lato', sans-serif;
-  font-weight: 1000;
+  font-weight: 700;
   font-size: 300%;
+  line-height: 1.2;
 
   // Temp solution to remove space between title and post_subtitle
-  margin-bottom: -24px;
+  // TODO: fix with advanced margin options
+  margin-bottom: -20px;
 }
 
 .post_subtitle {
@@ -102,6 +134,6 @@ body {
 .post_body p:not(.post_date), ol, ul {
   font-family: 'Libre Baskerville', serif;
   // font-size: 1.2rem;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.8;
 }

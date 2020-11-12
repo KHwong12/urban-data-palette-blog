@@ -147,7 +147,7 @@ Here, we classify the streets by both their Chinese and English street suffix. W
 
 Say, the dark purple cell on row 「街」 and column "Street" implies there are 1,327 thoroughfares have a Chinese Suffix of 「街」 **and** English Suffix of "Street". The blueish-green cell on row 「道」 and column "Avenue" means there are 25 thoroughfares with Chinese Suffix of 「道」 and English Suffix of "Avenue".
 
-<img src="/post/2020-05-street-suffix/heatmap.png" alt="heatmap" style="zoom:24%;" />
+![Heatmap between Chinese and English suffixes](/post/2020-05-street-suffix/heatmap.png)
 
 Immediately we could draw some interesting insights:
 
