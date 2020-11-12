@@ -4,7 +4,7 @@ subtitle: "Pseudo-, not-so-historic ferry services map"
 description: ""
 date: 2020-09-02T22:02:13+08:00
 draft: false
-categories: ["Step-by-step Tutorial"]
+categories: ["How-to-make"]
 tags:
   - Cartography
   - Hong Kong

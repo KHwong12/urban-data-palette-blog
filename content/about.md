@@ -7,8 +7,6 @@ type: "non-post"
 
 {{< figure src="/images/propic.jpg" max-height="30%" max-width="30%" class="propic">}}
 
-> **Urban, Pigments, Maps, Palette, Data, Paintings.**
-
 I'm Kenneth. Here's a list of title I would describe myself:
 
 * ~ A Hongkonger
@@ -26,13 +24,13 @@ Things in this blog falls into the following categories:
 
 ### 1. Technical Article
 
-A learning note to explain the technical concepts like understanding format of YAML etc.
+Learning note to explain technical concepts like format of YAML etc. Similar to those ubiquitous posts you will see in software developers' blog.
 
 https://pjchender.blogspot.com/2015/03/cssmultiple-selectorsspace.html
 
 ### 2. Understanding GIS concepts
 
-Also learning note, yet focused on the theoretical concepts.
+Also learning notes, yet focused on the theoretical concepts.
 
 ### 3. Map Essays
 
@@ -40,9 +38,8 @@ Map and data essays, journal like articles. Those you will see on Washington Pos
 
 ### 4. How-to-make Tutorial
 
-A how to make tutorial
+A how-to-make, step-by-step tutorial for making maps and charts. It will some something like below:
 
-I aim to write something like this:
 https://anitagraser.com/2016/12/18/details-of-good-flow-maps/
 
 ### 5. Behind the scene
