@@ -23,6 +23,8 @@
 .youtube-player {
   display: flex;
   margin: 0.5rem auto;
+  width: 640px;
+  height: 385px;
 }
 
 /* Just for propfile pic in about page */
@@ -38,6 +40,19 @@
   box-shadow: 0rem 0rem; /* disable drop shadow */
   margin: 0.5rem auto 0.5rem inherit; /* top | right | bottom | left */
   display: table;
+}
+
+// Code Snippets
+div.highlight {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lntable {
+  box-shadow: 0rem 0rem; /* disable drop shadow */
+  display: flex;
+  margin: 0.5rem auto;
 }
 
 
