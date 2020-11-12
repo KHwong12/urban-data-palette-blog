@@ -4,11 +4,11 @@ date: 2020-09-13T19:47:11+08:00
 subtitle: "Interactive web application"
 description: ""
 draft: false
-categories: ["Web Map", "Interactive", "Spatial Analysis"]
+categories: ["Behind the Scene"]
 tags:
-  - ArcGIS API for Javascript
+  - ArcGIS API
   - Javascript
-  -
+  - Web Map
 image: "../post/2020-09-peaks-viewshed/HKPeaks_Overview.png"
 ---
 

@@ -4,11 +4,11 @@ subtitle: "See how coronavirus pulls down number of flights between Hong Kong an
 description: ""
 date: 2020-04-26
 draft: false
-categories: ["Cartography"]
+categories: ["Map Essay"]
 tags:
-  - Flights
+  - Connections
   - Hong Kong
-  - regression
+  - Cartography
 image: "../post/2020-04-flight-hkjp/flight.gif"
 ---
 

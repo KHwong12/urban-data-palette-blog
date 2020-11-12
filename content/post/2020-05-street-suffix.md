@@ -4,7 +4,7 @@ subtitle: "Visualising and analysing the distribution of street names"
 description: ""
 date: 2020-05-29
 draft: false
-categories: ["Map Essay","Cartography"]
+categories: ["Map Essay"]
 tags:
   - Cartography
   - Data Visualisation

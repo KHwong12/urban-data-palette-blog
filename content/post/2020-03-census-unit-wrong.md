@@ -4,7 +4,7 @@ subtitle: "Land doesn't travel, people do"
 description: ""
 date: 2020-03-27
 draft: false
-categories: ["Spatial Analysis"]
+categories: ["Map Essay"]
 tags:
   - Census Tract
   - Hong Kong
