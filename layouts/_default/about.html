@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class = 'wrap mt post'>
+    <div>
+      <h1 class = 'post_title'>{{ .Title }}</h1>
+      <br>
+      <div class = 'post_body'>
+        <div class = 'post_inner'>
+        {{ with .Params.image }}
+          <img src = '{{ absURL (printf "images/%s" .) }}' alt = '{{ . }}' class = 'post_thumbnail'>
+        {{ end }}
+          {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}
