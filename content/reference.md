@@ -1,8 +1,8 @@
 ---
-title: "Reference"
-type: "non-post"
+title: "Map Reference List"
+type: "reference"
+layout: "about"
+image: ""
 ---
-
-# Reference List
 
 A continuous and growing list of references I found useful. AKA storage space for myself.

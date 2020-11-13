@@ -39,9 +39,9 @@ paginate = 6
 
 # ids used below are not valid. Replace with valid ones
 [params]
-  ga_analytics = "" # google analytics ID e.g UA-116386578-1
+  ga_analytics = "UA-160264012-1" # google analytics ID e.g UA-116386578-1
 
-  ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
+  # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
   twitter = "@Kenneth_KHW" # twitter handle e.g @weru
 
   # Create custom css with adding new lines in head.html

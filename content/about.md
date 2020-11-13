@@ -1,9 +1,8 @@
 ---
 title: "About Me"
-type: "non-post"
+type: "about"
+layout: "about"
 ---
-
-# About Me
 
 <!-- {{< figure src="/images/propic.jpg" height="240px" width="240px" class="propic">}} -->
 <img src="/images/propic.jpg" zoom="30%" class="propic">
