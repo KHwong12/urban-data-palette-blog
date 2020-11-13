@@ -1,6 +1,7 @@
 ---
 title: "Map Gallery"
-type: "non-post"
+type: "gallery"
+layout: "gallery"
 ---
 
 # Map Gallery

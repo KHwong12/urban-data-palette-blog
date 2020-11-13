@@ -32,6 +32,7 @@
 /* Not select the thumbnail picture with not(.post_thumbnail)  */
 .post_inner img:not(.post_thumbnail) {
   max-width: 720px;
+  height: auto;
 
   margin-left: auto;
   margin-right: auto;
@@ -46,7 +47,6 @@
   box-shadow: none !important; /* disable drop shadow */
 }
 
-// <!-- TODO: repsonsive for mobile phones -->
 .youtube_video {
   // Following excerpted from _posts.scss
   max-width: 720px !important;

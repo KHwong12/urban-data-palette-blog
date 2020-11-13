@@ -1,3 +1,5 @@
+// Edited from hugo-easy-gallery.css
+
 /*
 Put this file in /static/css/hugo-easy-gallery.css
 Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
@@ -9,15 +11,23 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
-    max-width: 768px;
+    max-width: 1080px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
+
+
 .gallery .box {
     float: left;
     position: relative;
     /* Default: 1 tile wide */
     width: 100%;
-    padding-bottom: 100%; 
+    padding-bottom: 100%;
 }
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
@@ -45,7 +55,7 @@ Grid Layout Styles
 Transition styles
 */
 .gallery.hover-transition figure,
-.gallery.hover-effect-zoom .img, 
+.gallery.hover-effect-zoom .img,
 .gallery:not(.caption-effect-appear) figcaption,
 .fancy-figure:not(.caption-effect-appear) figcaption {
     -webkit-transition: all 0.3s ease-in-out;
@@ -153,7 +163,36 @@ figcaption styles
 .fancy-figure.caption-effect-slide.caption-position-center figure:not(:hover) figcaption  {
     top: 100%;
 }
+
 figcaption p {
     margin: auto; /* override style in theme */
 }
 
+//
+// Extra rules to fix bugs with display crashed with scss of the main theme
+//
+
+// Temp fix: thumbnail shown two times in overall view
+// Located inside "caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" div class
+// TODO: debug
+div.box figure div.img img{
+  display: none !important;
+}
+
+// Override the post img properties
+img.pswp__img {
+  max-width: none !important;
+}
+
+
+// Font display
+div.box figure figcaption p {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+}
+
+div.pswp__caption__center {
+  text-align: center;
+  font-size: 1.25rem;
+}
