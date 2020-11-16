@@ -45,7 +45,7 @@ I get the location of ferry piers and the ferry routes from OpenStreetMap data, 
 
 Following is the code used to grab the ferry routes. This simply equals to type in `route=ferry in HK` in the query wizard provided by Overpass Turbo.
 
-```ql
+```md
 [out:json][timeout:25];
 // fetch area “HK” to search in
 {{geocodeArea:HK}}->.searchArea;

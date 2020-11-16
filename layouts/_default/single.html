@@ -17,9 +17,8 @@
         </span>
         <span class = 'tags'>
           <i class="fas fa-tags"></i>
-          {{ range .Params.tags }}
-            {{ . }},
-          {{ end }}
+          <!-- https://gohugo.io/functions/delimit/ -->
+          {{ delimit .Params.tags ", " }}
         </span>
       </p>
       <br>
