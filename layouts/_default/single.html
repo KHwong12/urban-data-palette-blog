@@ -8,17 +8,17 @@
       <p>
         <span class = 'word_count'>
           <i class="fas fa-pencil-alt fa-fw"></i>
-          {{ countwords .Content }} words |
+           {{ countwords .Content }} words |
         </span>
         <span class = 'reading_time'>
           <!-- https://kodify.net/hugo/strings/reading-time-text/ -->
           <i class="far fa-clock fa-fw"></i>
-          {{ math.Round (div (countwords .Content) 220.0) }}-min read |
+           {{ math.Round (div (countwords .Content) 220.0) }}-min read |
         </span>
         <span class = 'tags'>
           <i class="fas fa-tags"></i>
           <!-- https://gohugo.io/functions/delimit/ -->
-          {{ delimit .Params.tags ", " }}
+           {{ delimit .Params.tags ", " }}
         </span>
       </p>
       <br>
