@@ -57,7 +57,7 @@ Following is the code used to grab the ferry routes. This simply equals to type 
 );
 // print results
 out body;
->;
+
 out skel qt;
 ```
 
