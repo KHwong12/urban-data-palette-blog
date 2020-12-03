@@ -87,12 +87,12 @@ div.highlight {
 /* Add space before headings */
 
 h2 {
-  margin-top: 3rem;
+  margin-top: 2rem !important;
   font-weight: 700;
 }
 
 h3, h4, h5 {
-  margin-top: 2rem;
+  margin-top: 1.5rem !important;
   font-weight: 700;
 }
 
@@ -136,4 +136,14 @@ body {
   // font-size: 1.2rem;
   font-size: 16px;
   line-height: 1.8;
+}
+
+// Add marker of list
+ul {
+  list-style-type: circle;
+}
+
+ul, ol {
+  -webkit-padding-start: 2rem !important;
+  -moz-padding-start: 2rem !important;
 }
