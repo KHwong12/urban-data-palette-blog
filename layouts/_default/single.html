@@ -17,9 +17,20 @@
         </span>
         <span class = 'tags'>
           <i class="fas fa-tags"></i>
-          <!-- https://gohugo.io/functions/delimit/ -->
-           {{ delimit .Params.tags ", " }}
+          <!-- https://stackoverflow.com/questions/59565101/hugo-list-tags-with-link-and-comma-separated -->
+          {{ range $i, $e := .Params.tags -}}
+              {{- if $i -}}, {{ end -}}
+              <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
+          {{- end -}}
         </span>
+
+        <!-- Old method using delimit, yet tags are not clickable -->
+        <!-- {{ if .Params.tags }} -->
+          <!-- <span class = 'tags'> -->
+            <!-- <i class="fas fa-tags"></i> -->
+              <!-- https://gohugo.io/functions/delimit/ -->
+              <!-- {{ delimit .Params.tags ", " }} -->
+        <!-- {{ end }} -->
       </p>
       <br>
       <div class = 'post_body'>
