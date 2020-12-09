@@ -7,16 +7,18 @@
       <h3 class = 'post_subtitle'>{{ .Params.subtitle }}</h3>
       <p>
         <span class = 'word_count'>
-          <i class="fas fa-pencil-alt fa-fw"></i>
-           {{ countwords .Content }} words |
+          <i class = "fas fa-pencil-alt fa-fw"></i>
+          {{ countwords .Content }} words
         </span>
+        &nbsp;|&nbsp;
         <span class = 'reading_time'>
           <!-- https://kodify.net/hugo/strings/reading-time-text/ -->
-          <i class="far fa-clock fa-fw"></i>
-           {{ math.Round (div (countwords .Content) 220.0) }}-min read |
+          <i class = "far fa-clock fa-fw"></i>
+          {{ math.Round (div (countwords .Content) 220.0) }}-min read
         </span>
+        &nbsp;|&nbsp;
         <span class = 'tags'>
-          <i class="fas fa-tags"></i>
+          <i class = "fas fa-tags"></i>
           <!-- https://stackoverflow.com/questions/59565101/hugo-list-tags-with-link-and-comma-separated -->
           {{ range $i, $e := .Params.tags -}}
               {{- if $i -}}, {{ end -}}
