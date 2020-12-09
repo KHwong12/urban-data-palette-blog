@@ -8,8 +8,6 @@ canonifyurls = true
 # https://gohugo.io/templates/pagination/
 paginate = 200
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
-
 # Enable raw html
 # https://gohugo.io/news/0.60.0-relnotes/
 [markup]
