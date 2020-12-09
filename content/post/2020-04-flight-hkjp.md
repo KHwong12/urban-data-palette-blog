@@ -9,7 +9,7 @@ tags:
   - Connections
   - Hong Kong
   - Cartography
-image: "../post/2020-04-flight-hkjp/flight.gif"
+image: "2020-04-flight-hkjp/flight.gif"
 ---
 
 See how coronavirus pulls down number of flights between Hong Kong and Japan

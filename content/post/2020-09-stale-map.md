@@ -9,7 +9,7 @@ tags:
   - Cartography
   - Hong Kong
   - Map
-image: "../post/2020-09-stale-map/ferry_FINAL_min.jpg"
+image: "2020-09-stale-map/ferry_FINAL_min.jpg"
 ---
 
 Pseudo-, not-so-historic ferry services map

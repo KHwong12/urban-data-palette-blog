@@ -9,7 +9,7 @@ tags:
   - ArcGIS API
   - Javascript
   - Web Map
-image: "../post/2020-09-peaks-viewshed/HKPeaks_Overview.png"
+image: "2020-09-peaks-viewshed/HKPeaks_Overview.png"
 ---
 
 Quick round up of an interactive web map project

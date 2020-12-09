@@ -7,7 +7,7 @@ draft: false
 categories: ["Jot", "Random Thoughts"]
 tags:
   - data resolution
-image: "../post/2020-12-spatial-data-accuracy/world_spikes.png"
+image: "2020-12-spatial-data-accuracy/world_spikes.png"
 ---
 
 Outrageous living density requires outrageous data resolution

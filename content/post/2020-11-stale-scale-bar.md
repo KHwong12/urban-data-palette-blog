@@ -8,7 +8,7 @@ categories: ["Jot"]
 tags:
   - ArcGIS Pro
   - Cartography
-image: "../post/2020-11-stale-map-follow-up/scale-bar.jpg"
+image: "2020-11-stale-map-follow-up/scale-bar.jpg"
 ---
 
 A small follow-up on the old stale map, with a new scale bar

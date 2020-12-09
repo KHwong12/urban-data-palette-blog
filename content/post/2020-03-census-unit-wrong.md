@@ -10,7 +10,7 @@ tags:
   - Hong Kong
   - Spatial Analysis
   - MAUP
-image: "../post/2020-03-census-unit-wrong/Census_ResBldgs.jpg"
+image: "2020-03-census-unit-wrong/Census_ResBldgs.jpg"
 ---
 
 Land doesn't travel, people do.

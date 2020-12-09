@@ -10,7 +10,7 @@ tags:
   - Data Visualisation
   - Urban Studies
   - Hong Kong
-image: "../post/2020-05-street-suffix/CoreUrban_CHIENG.png"
+image: "2020-05-street-suffix/CoreUrban_CHIENG.png"
 ---
 
 How do you like the street naming? On maps.
