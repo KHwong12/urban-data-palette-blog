@@ -27,8 +27,9 @@ A small follow-up on the old stale map, with a new scale bar
 
 I then followed the guides and replicated the same scale bar style in my original stale map project. At least it doesn't look bad. The red fill colours may need some further refinements - the fill looks a bit too perfect for me. I sort of want the fill to be "scrapped off" a bit with only the colour of the paper left behind.
 
-{{< figure src="/post/2020-11-stale-map-follow-up/scale-bar.jpg" height="50%" width="50%" >}}
+![](/post/2020-11-stale-map-follow-up/scale-bar.jpg)
 
+<!-- 
 
 What I learnt is about the advanced formatting options in Pro. Specifically, _Pro treats words as polygon objects_. I never knew about this before and have no idea how to add filter (sort of like transforming a rasterised object in Photoshop) to words.
 

@@ -43,9 +43,8 @@ We love data. So, how the number of flights free-fell during the past few months
 
 ### The Plummet, in Chart
 
-<!-- ![flights-linechart](/post/2020-04-flight-hkjp/flights-linechart.png) -->
-
-{{< figure src="/post/2020-04-flight-hkjp/flights-linechart.png" >}}
+![flights-linechart](/post/2020-04-flight-hkjp/flights-linechart.png)
+<!-- {{< figure src="/post/2020-04-flight-hkjp/flights-linechart.png" >}} -->
 
 Here, the horizontal axis shows a timeline from 12 Jan 2020 to 14 Apr 2020. The vertical white lines indicate Sunday. The vertical axes measure the total number of direct flights on each day. There are 2 colour lines - the brown one includes flights travelling from Japan to Hong Kong, while the green one is from Hong Kong to Japan. Altogether, they compose this time-series line chart.
 
@@ -85,9 +84,8 @@ Following are the maps showing the number of flights between Hong Kong and Japan
 
 **NOTE:** the curves are not the actual flight paths.
 
-<!-- ![flights_weeks](/post/2020-04-flight-hkjp/weeks_W05A05.png) -->
-
-{{< figure src="/post/2020-04-flight-hkjp/weeks_W05A05.png" >}}
+![flights_weeks](/post/2020-04-flight-hkjp/weeks_W05A05.png)
+<!-- {{< figure src="/post/2020-04-flight-hkjp/weeks_W05A05.png" >}} -->
 
 The announcement on March 5 also restricts the ports of entry for Hongkongers. Since then, only Tokyo Narita and Kansai International Airport (a.k.a. Osaka) are allowed for foreigners' entry. Part of the flights to Haneda Airport is changed to land on Narita instead.
 

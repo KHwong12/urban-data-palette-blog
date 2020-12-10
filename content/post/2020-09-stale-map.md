@@ -18,8 +18,6 @@ Pseudo-, not-so-historic ferry services map
 
 ## TL;DR
 
-
-
 This article guides you on how to create an old-fashioned, pen-n-ink style map from scratch, quickly.
 
 
@@ -39,9 +37,8 @@ This map is indeed just some tasks on data collection and symbology adjusting. I
 
 I get the location of ferry piers and the ferry routes from OpenStreetMap data, using [Overpass Turbo](https://overpass-turbo.eu/).
 
-<!-- ![01_OverpassData](/post/2020-09-stale-map/01_OverpassData.png) -->
-
-{{< figure src="/post/2020-09-stale-map/01_OverpassData.png" alt="01_OverpassData" height="30%" width="30%" >}}
+![01_OverpassData](/post/2020-09-stale-map/01_OverpassData.png)
+<!-- {{< figure src="/post/2020-09-stale-map/01_OverpassData.png" alt="01_OverpassData" height="30%" width="30%" >}} -->
 
 Following is the code used to grab the ferry routes. This simply equals to type in `route=ferry in HK` in the query wizard provided by Overpass Turbo.
 
@@ -73,8 +70,8 @@ Still, you could still use OpenStreetMap data when you want to have a try!
 
 Let's throw all the routes and pier data into ArcGIS Pro. (Use `JSON To Features` function to import those geojsons downloaded from Overpass Turbo!) As I am only interested in the ferry routes in the Victoria Harbour, I created a subset of data by manually select and click on the lines and points.
 
-<!-- ![02_LoadData](/post/2020-09-stale-map/02_LoadData.png) -->
-{{< figure src="/post/2020-09-stale-map/02_LoadData.png" alt="02_LoadData" height="30%" width="30%" >}}
+![02_LoadData](/post/2020-09-stale-map/02_LoadData.png)
+<!-- {{< figure src="/post/2020-09-stale-map/02_LoadData.png" alt="02_LoadData" height="30%" width="30%" >}} -->
 
 ### Symbology
 
