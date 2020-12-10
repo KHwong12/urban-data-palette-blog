@@ -8,32 +8,36 @@ canonifyurls = true
 # https://gohugo.io/templates/pagination/
 paginate = 200
 
-# Enable raw html
-# https://gohugo.io/news/0.60.0-relnotes/
+
+# https://gohugo.io/getting-started/configuration-markup/
 [markup]
   [markup.goldmark]
+    # Enable raw html
+    # https://gohugo.io/news/0.60.0-relnotes/
     [markup.goldmark.renderer]
       unsafe = true
   # Alternatively, you can use chroma instead of pigments
   # to do so comment or delete lines 11 ~ 14 and uncomment lines 17 ~ 27
   [markup.highlight]
+    anchorLineNos = false
     codeFences = true
     guessSyntax = true
     hl_Lines = ""
     lineNoStart = 1
-    lineNos = true
+    lineNos = false
     lineNumbersInTable = true
     noClasses = false
-    style = "monokai"
+    style = "solarized-dark"
     tabWidth = 2
 
 
 # Enable syntax highlighting
 # comment or delete lines 11 ~ 14
 # pygmentsCodefences = true
+# pygmentsStyle = "solarized-dark"
 # pygmentsCodefencesGuessSyntax = true
 # pygmentsUseClasses = true
-# pygmentsOptions = "linenos=table"
+# pygmentsOptions = ""
 
 
 # If you want to use disqus, uncomment the line below
