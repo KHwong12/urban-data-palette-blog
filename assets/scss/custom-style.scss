@@ -13,19 +13,12 @@
   align-items: stretch;
 }
 
-/* Just for propfile pic in about page */
-.propic {
-  /* width: 70%; /* Smaller image size */
-  max-width: 400px !important;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  // width: 100%;
-  align-items: stretch;
-
-  box-shadow: none !important; /* disable drop shadow */
+// Centering Tweet from Shortcode
+// https://discourse.gohugo.io/t/centering-tweet-from-shortcode/5525/2
+.twitter-tweet-rendered {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /* Size of other images in post */
