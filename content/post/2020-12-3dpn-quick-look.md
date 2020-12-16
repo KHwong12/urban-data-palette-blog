@@ -1,47 +1,66 @@
 ---
 title: "3D pedestrian network dataset of Hong Kong - A Quick Look"
-subtitle: "Distribution of the paths' length and gradient"
-description: ""
+subtitle: "What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?"
+description: "What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?"
 author: Kenneth Wong
 draft: false
 date: "2020-12-12"
 categories: ["Data Essay", "Jot"]
 tags:
+  - Data Visualisation
   - Pedestrian Network
   - ggplot
   - R
-image: "../post/2020-12-3dpn-quick-look/GIS_3DScene_2.png"
+image: "../post/2020-12-3dpn-quick-look/network_monochrome_2.png"
 output:
   md_document:
     variant: gfm
     preserve_yaml: true
 ---
 
-What is the distribution of the paths in terms of length and gradient?
+What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?
 
 <!--more-->
 ---
 
-The [Lands Department of Hong Kong](https://www.info.gov.hk/gia/general/202012/03/P2020120300289.htm) finally published the 3D pedestrian
-network (3DPN) dataset to the public. I have been waiting this for a long time. The whole dataset is available in the following link. The data
-dictionary could be found after clicking the **Notes** button on the left of the **Download Dataset** button.
+### TL;DR
+
+About 436,000 pedestrian walkway segments are scattered around the whole
+territory of Hong Kong. The distribution of both length and gradient are
+uneven. Most of them are on flat terrain and short paths between 0–20 m.
+There are around 333,800 normal footways, 27,500 crossings, 7,200
+footbridge and 1,000 subway segments in the network. These numbers could
+help us get a rough image of the topology of the pedestrian network in
+Hong Kong.
+
+-----
+
+The [Lands
+Department](https://www.info.gov.hk/gia/general/202012/03/P2020120300289.htm)
+finally published the 3D pedestrian network (3DPN) dataset to the
+public. I have been waiting this for a long time. The whole dataset is
+available in the following link. The data dictionary could be found
+after clicking the **Notes** button on the left of the **Download
+Dataset** button.
 
 <https://geodata.gov.hk/gs/view-dataset?uuid=201eaaee-47d6-42d0-ac81-19a430f63952&sidx=0>
 
-Here’s what it looks like in ArcGIS Pro…
+Here’s what the network looks like in GIS…
 
-![3D View of the network](/post/2020-12-3dpn-quick-look/GIS_3DScene_1.png)
+![3D View of the
+network](/post/2020-12-3dpn-quick-look/GIS_3DScene_1.png)
 
-![Another 3D View of the network](/post/2020-12-3dpn-quick-look/GIS_3DScene_2.png)
+![Another 3D View of the
+network](/post/2020-12-3dpn-quick-look/GIS_3DScene_2.png)
 
 But we can do more instead of just displaying the paths. One thing we
 could do is to strip the spatial elements off and analyse the properties
 of the path in terms of 1. path type, 2. length and 3. gradient. I will
-not bother showing the paths in 3D Map (Plug the database into your
-local GIS software if you want\!). Here, I exported the attribute table
+not bother showing the paths in 3D Map (Plug the database into your GIS
+software if you want\!). Here, I exported the attribute table
 (`PexNetwork_AttrTable.csv`) of the network from GIS to conduct some
-basic data visualisation analysis. Following analysis are like presenting
-use cases of **ggplot** and **ggridges**.
+basic data visualisation analysis, like presenting use cases of
+**ggplot** and **ggridges**.
 
 ``` r
 library(tidyverse)
@@ -59,18 +78,19 @@ FeatureType_dict = read_csv("data/data-raw/FeatureType_dict.csv")
 
 ## Types of footpath
 
-Let’s dive into the dataset and take a quick look in terms of summary
+Let’s dive into the dataset and take a glance in terms of summary
 statistics.
 
 The level of details of the network already dropped my jaw - it has a
-total of 436,426 path segments\! An extremely large spatial dataset which
-contains footpaths only. About 334,000 paths are ubiquitous footway.
-What also surprised me is that there are in total 27,470 crossings in
-the dataset. Although the crossings are usually separated in two parts
-in the network sense since are the separated by the traffic islands, the
-total number of crossings still largely exceeds my random guess. The
-2,000 footbridges consist a total of 7,200 segments, while the 400
-subways are split into 967 segments.
+total of 436426 path segments\! An extremely large spatial dataset which
+contains only footpaths. About 334,000 paths are ubiquitous footway
+(i.e. sidewalk or pedestrian walkway). What also surprised me is that
+there are in total 27,470 crossings in the dataset. Although crossings
+are usually separated into two parts in the network sense (they are
+separated by the traffic islands), the total number of crossings still
+largely exceeds my random guess. Meanwhile, the 2,000 footbridges
+consist of 7,200 segments, and the 400 subways are split into about
+1,000 segments.
 
 ``` r
 PexNetwork_summary = PexNetwork_AttrTable %>%
@@ -119,13 +139,17 @@ ggplot(PexNetwork_summary, aes(y = reorder(DataType, desc(FeatureType)))) +
 
 How about their distribution in terms of length and gradients?
 
-Here I use the **ggridges** package to visualise the shape of the
-distribution of each footpath type. I excluded the lifts category as
-their gradient and length are not useful at all - they are just some
-vertical lines and you will not “walk” on them. In addition to the
-distribution, showing some critical values would allow those math nerds
-to grasp the look of the distribution quickly. therefore, I also
-computed the median and mean value of each group.
+Here I use the **ggridges** to visualise the shape of the distribution
+and relative height across each footpath type. I excluded the lifts
+category as their gradient and length are not useful at all - they are
+just some vertical lines and you will not “walk” on them.
+
+In addition to the distribution, showing some critical values would
+allow those math nerds to grasp the look of the distribution quickly.
+Therefore, I also computed the median and mean value of each group.
+
+As a supplementary note, the median and average length of all footpaths
+(excluding lifts category) are 8 m and 19 m respectively.
 
 ``` r
 exclude_type = c("Lift", "Stairlift", "M_Lift", "M_Stairlift")
@@ -203,7 +227,7 @@ ggplot(PexNetwork_AttrTable_typename, aes(x = SHAPE_Length, y = reorder(DataType
 Travelator in MTR stations has the largest mean and median length. Not
 surprising when you consider the length of the travelators in HKU MTR
 Station, specifically those from the concourse to Exit C. Other long
-travelators includes the one from Three Pacific Place to Admiralty
+travelators include the one from Three Pacific Place to Admiralty
 Station.
 
 ![](https://www.undergroundspace.gov.hk/images/pacific_place_3.png)
@@ -211,7 +235,9 @@ Photo Source: <https://www.undergroundspace.gov.hk/pacificplace.htm>
 
 ## Distribution of path gradient
 
-How about gradient?
+How about gradient? Again, as a supplementary note, the median and
+average gradient of all footpaths (excluding lifts category) are 0.01
+and 0.06 respectively.
 
 ``` r
 GRADIENT_COLOUR = "#ff7f00"
@@ -273,27 +299,35 @@ One interesting observation is that the gradient of the staircases
 (i.e. steepness of the stairs) in MTR stations is much higher than the
 normal staircases.
 
-Gradient of common footpaths on ground has median around 0.01 to 0.02,
-while the mean is around 0.04 to 0.06. We can see the distribution of
-gradient is **positively skewed**. Again, this is not surprising as the
-footpaths in the main area of the city are mostly built on flatland. A
-number of steep footpaths are located in the hilly districts like Sai
-Ying Pun and Tsz Wan Shan.
+Gradient of normal footpaths on ground level has median around 0.01 to
+0.02, while the mean is around 0.04 to 0.06. We can see the distribution
+of gradient is **positively skewed**. Again, this is not surprising as
+the footpaths in the main area of the city are mostly built on flatland.
+However, there are abundant steep footpaths located in the hilly
+districts like Sai Ying Pun and Tsz Wan Shan.
 
 It could be something worth investigating by classifying the footpaths
-by residential areas and then investigate the differences of the slope.
-A “Steepness Indicator” could be generated. The steepness of the path
-could even be used as an indicator to measure walkability.
+by residential areas, then investigate the differences of slopes across
+various districts. A “Steepness Index” of each residential area could be
+computed. The steepness of the path could be used as an indicator to
+measure walkability. We could even look into the correlation between
+this index and flat price\!
+
+-----
+
+## Hiatus
+
+This blog is just a quick review of the properties of the pedestrian
+network. The power and possible usage of the network dataset are
+unimaginable, especially for accessibility analysis. The best way to
+understand the dataset is to play the juggle the dataset around, looking
+into the shapes and attributes. If you are interested in investigating
+pedestrian walking behaviour, this dataset is a gold mine for you to
+explore.
+
+![](/post/2020-12-3dpn-quick-look/network_monochrome.png)
+
 
 <!-- ## Appendix: Summary Table -->
 
 <!-- In case you find the exact numbers more attractive, here's the code for generating a summary table.  -->
-
-
-## Hiatus
-
-This blog is just a extremely brief summary of the properties of the pedestrian network.
-The power and possible usage of the network dataset is unimaginable, especailly for
-accessibility analysis. The best way to understand the dataset is to play thue juggle the
-dataset around, looking into the shapes and attributes. If you are interested in investigating
-pedestrain walking behaviour, this dataset is a gold mine for you to explore.
