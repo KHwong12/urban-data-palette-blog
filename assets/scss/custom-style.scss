@@ -16,15 +16,16 @@
 // Centering Tweet from Shortcode
 // https://discourse.gohugo.io/t/centering-tweet-from-shortcode/5525/2
 .twitter-tweet-rendered {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Size of other images in post */
 /* Not select the thumbnail picture with not(.post_thumbnail)  */
 .post_inner img:not(.post_thumbnail) {
   max-width: 720px;
+  width: 100%;
   height: auto;
 
   margin-left: auto;
@@ -48,7 +49,6 @@
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  // width: 100%;
   align-items: stretch;
 
   width: 80%;
@@ -109,7 +109,7 @@ body {
 
 
 
-/* serif in post only, not in preview */
+/* serif in post only, not in preview at homepage */
 .post_body p:not(.post_date), ol, ul {
   font-family: 'Libre Baskerville', serif;
   // font-size: 1.2rem;
