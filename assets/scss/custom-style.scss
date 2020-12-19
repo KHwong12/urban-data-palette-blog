@@ -55,11 +55,11 @@
 }
 
 /* Icon button */
-// TODO: align with p, not left-hand side
+// TODO: align with p, not center
 .btn.btn-default {
   color: #ffffff; /* Change inner text to white */
   box-shadow: 0rem 0rem; /* disable drop shadow */
-  margin: 0.5rem auto 0.5rem inherit; /* top | right | bottom | left */
+  margin: 0.5rem auto 0.5rem auto; /* top | right | bottom | left */
   display: table;
 }
 
