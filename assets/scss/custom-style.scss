@@ -13,19 +13,11 @@
   align-items: stretch;
 }
 
-// Centering Tweet from Shortcode
-// https://discourse.gohugo.io/t/centering-tweet-from-shortcode/5525/2
-.twitter-tweet-rendered {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 /* Size of other images in post */
 /* Not select the thumbnail picture with not(.post_thumbnail)  */
-.post_inner img:not(.post_thumbnail) {
-  max-width: 720px;
-  width: 100%;
+.post_inner img:not(.icon) {
+  max-width: 100%;
+  width: auto;
   height: auto;
 
   margin-left: auto;
@@ -52,6 +44,14 @@
   align-items: stretch;
 
   width: 80%;
+}
+
+// Centering Tweet from Shortcode
+// https://discourse.gohugo.io/t/centering-tweet-from-shortcode/5525/2
+.twitter-tweet-rendered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Icon button */
