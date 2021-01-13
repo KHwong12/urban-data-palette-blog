@@ -4,7 +4,7 @@ subtitle: "The case of combing land use zoning shapefiles (with same schema)"
 description: ""
 author: Kenneth Wong
 draft: false
-date: "2021-01-14"
+date: "2021-01-13"
 categories: ["Jot", "Tutorial", "Data manipulation"]
 tags:
   - GIS
