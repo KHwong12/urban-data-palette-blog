@@ -1,7 +1,7 @@
 .post{
   margin: 0 auto;
   width: 100%;
-  p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, hr {
+  p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, hr, figcaption {
     max-width: 720px !important;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +32,9 @@
   &s:not(.aside) {
     padding: 0 30px;
   }
+  figcaption {
+    text-align: center;
+  }
   ol, ul {
     padding: 1rem 1.25rem;
     padding-bottom: 0.5rem;
@@ -56,6 +59,10 @@
       box-shadow: 0 1.5rem 1rem -1rem rgba(0,0,0,0.25);
       ~ h1, ~ h2, ~ h3, ~ h4 {
         margin-top: 2rem;
+        padding-top: 0;
+      }
+      ~ figcaption {
+        margin-top: -2rem;
         padding-top: 0;
       }
     }
