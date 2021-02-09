@@ -21,7 +21,7 @@ A few notes on finding tools to create isochrone map with public transit travel 
 I have a new project which needs to generate some [isochrone maps](https://wiki.openstreetmap.org/wiki/Isochrone). To be honest, isochrone maps sounds like a jargon for me - I find the term **Travel Time Map** more explicit and easy to understand. Originally, I call this type of map "Service Area map" since I usually make these maps in ArcMap/ArcGIS Pro with the network analyst extension. And that's [how ESRI calls this type of map](https://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/service-area.htm).
 
 ![](https://pro.arcgis.com/en/pro-app/help/analysis/networks/GUID-569B9331-C31B-4FA9-835C-EA9D39EB08D0-web.png)
-from https://pro.arcgis.com/en/pro-app/help/analysis/networks/service-area-analysis-layer.htm
+<figcaption>from https://pro.arcgis.com/en/pro-app/help/analysis/networks/service-area-analysis-layer.htm</figcaption>
 
 ## Isochrone with Accurate public transit data
 
