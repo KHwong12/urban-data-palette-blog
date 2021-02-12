@@ -64,28 +64,28 @@ code {
   max-width: 100%;
   overflow-x: auto;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5 {
   font-family: inherit;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   padding: 0.33rem 0;
   margin: 1rem 0;
   color: inherit;
 }
-h1{
+h1 {
   font-size: 200%;
   font-weight: 700;
 }
-h2{
+h2 {
   font-size: 175%;
 }
-h3{
+h3 {
   font-size: 150%;
 }
-h4{
+h4 {
   font-size: 125%;
 }
-h5{
+h5 {
   font-size: 120%;
 }
 img {
