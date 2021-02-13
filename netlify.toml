@@ -1,6 +1,6 @@
 [build]
   publish = "public"  # default hugo build folder
-  command = "hugo --gc" # hugo build command
+  command = "hugo --gc --minify" # hugo build command
 
 # --gc        run some cleanup tasks (remove unused cache files) after the build
 # --minify    minify any supported output format (HTML, XML etc.)

@@ -2,7 +2,7 @@ baseurl = "https://urbandatapalette.com/"  # Need trailing slash at start to cov
 title = "Urban Data Palette"
 theme = "newsroom"
 author = "Kenneth Wong"
-copyright = "Copyright © Kenneth Wong 2020."
+copyright = "Copyright © Kenneth Wong 2021."
 canonifyurls = true
 
 # https://gohugo.io/templates/pagination/

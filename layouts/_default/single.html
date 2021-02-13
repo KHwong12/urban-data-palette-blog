@@ -8,17 +8,19 @@
       <p>
         <span class = 'word_count'>
           <i class = "fas fa-pencil-alt fa-fw"></i>
-          {{ countwords .Content }} words
+          <!-- Use &nbsp; to escape from --minify option of hugo -->
+          &nbsp;{{ countwords .Content }} words
         </span>
         &nbsp;|&nbsp;
         <span class = 'reading_time'>
           <!-- https://kodify.net/hugo/strings/reading-time-text/ -->
           <i class = "far fa-clock fa-fw"></i>
-          {{ math.Round (div (countwords .Content) 220.0) }}-min read
+          &nbsp;{{ math.Round (div (countwords .Content) 220.0) }}-min read
         </span>
         &nbsp;|&nbsp;
         <span class = 'tags'>
           <i class = "fas fa-tags"></i>
+          &nbsp;
           <!-- https://stackoverflow.com/questions/59565101/hugo-list-tags-with-link-and-comma-separated -->
           {{ range $i, $e := .Params.tags -}}
               {{- if $i -}}, {{ end -}}
