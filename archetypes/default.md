@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-subtitle: ""
+summary: ""
 description: ""
 date: {{ .Date }}
 draft: false
@@ -9,7 +9,3 @@ tags:
   - tag1
 image: ""
 ---
-
-The summary
-
-<!--more-->
