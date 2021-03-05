@@ -41,7 +41,7 @@ paginate = 200
 
 
 # If you want to use disqus, uncomment the line below
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "urbandatapalette"
 
 # ids used below are not valid. Replace with valid ones
 [params]
