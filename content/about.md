@@ -5,19 +5,40 @@ layout: "about"
 ---
 
 ![](/images/propic.jpg)
-<!-- <img src="/images/propic.jpg" zoom="30%" class="propic"> -->
 
 I like maps, geospatial data, analysis and visualisation. I like to understand our cities through the above the tools. I am trained as an urban planner, while I strongly believe data and maps help to shape our cities into better places.
 
-Data should be a strong and effective communication tool that everyone in the city could understand. However, in my days as an urban planning student and researcher, I frequently feel the power of data and maps are thrown into an abandoned land in the field. I can't stop thinking why *people cannot value the power of data and maps in urban planning*. Data should not be that undervalued - we can use data to transform how we plan the cities, for the people.
+Data should be a strong and effective communication tool that everyone in the city could understand. However, in my days as an urban planning student and researcher, I frequently feel the power of data and maps are thrown into an abandoned land in the field. I can't stop thinking how the power of data and maps could be promoted in urban planning. Data should not be that undervalued - we can use data to transform how we plan the cities, for the people.
 
 That's the major reason why I started this blog. I hope to write a bunch of random articles to showcase how data and GIS could be used to understand and plan our cities. Currently, I am indulged in developing maps and applications that could act as planning support tools.
 
 My full portfolio and personal website is in https://kennethwong12.netlify.app/.
 
+<!-- Copied from resume website -->
+<div style="margin: 0.5rem auto 0.5rem auto;display: table;">
+<a href="mailto:khwongk12@gmail.com" data-toggle="tooltip" title="" data-offset="0 10"
+        rel="me" data-original-title="Mail"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                class="fas fa-envelope fa-stack-1x fa-inverse"></i></span></a>
+<a href="https://www.linkedin.com/in/kenneth-wong-91b390146" data-toggle="tooltip"
+        title="" data-offset="0 10" rel="me" data-original-title="LinkedIn"><span class="fa-stack fa-lg"><i
+                class="fa fa-circle fa-stack-2x"></i><i
+                class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
+<a href="https://github.com/KHwong12" data-toggle="tooltip" title="" data-offset="0 10"
+        rel="me" data-original-title="GitHub"><span class="fa-stack fa-lg"><i
+                class="fa fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+<a href="https://twitter.com/Kenneth_KHW" data-toggle="tooltip" title=""
+        data-offset="0 10" rel="me" data-original-title="Twitter"><span class="fa-stack fa-lg"><i
+                class="fa fa-circle fa-stack-2x"></i><i
+                class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+<a href="https://medium.com/@khwongk12" data-toggle="tooltip" title=""
+        data-offset="0 10" rel="me" data-original-title="Medium"><span class="fa-stack fa-lg"><i
+                class="fa fa-circle fa-stack-2x"></i><i class="fab fa-medium fa-stack-1x fa-inverse"></i></span></a>
+</div>
+
+<!-- 
 ---
 
-<!-- Things in this blog falls into the following categories:
+Things in this blog falls into the following categories:
 
 ### 1. Technical Article
 
