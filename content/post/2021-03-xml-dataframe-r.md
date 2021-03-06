@@ -1,12 +1,12 @@
 ---
 title: "Converting nested XML to dataframe in R - a tidyverse approach"
-summary: "Transforming XML to tidy data (and csv)"
+summary: "Transforming XML to tidy data (and CSV)"
 description: ""
 date: "2021-03-04"
 draft: false
 categories: ["Data manipulation", "R"]
 tags:
-  - xml
+  - XML
   - R
   - tidyverse
   - data manipulation
@@ -21,10 +21,10 @@ image: "2021-03-xml-dataframe-r/xml-to-dataframe.png"
 
 I rarely deal with XML data. However, sometimes the government discloses open data in XML format only. Currently I need to find data about the restaurant licenses in Hong Kong, and FEHD provides an [open dataset](https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences/resource/05053ecc-623a-415f-b703-5f785edd482c). Unluckily, the dataset is available in XML format only.
 
-The xml data file looks like something below:
+The XML data file looks like something below:
 
 ![](/post/2021-03-xml-dataframe-r/xml-view.png)
-<figcaption>xml of the restaurant license data</figcaption>
+<figcaption>XML of the restaurant license data</figcaption>
 
 The tree strucutre of the XML is in the below form:
 
@@ -66,7 +66,7 @@ xml_address = "http://www.fehd.gov.hk/english/licensing/license/text/LP_Restaura
 restaurant_license_xml = as_list(read_xml(xml_address))
 ```
 
-Here `read_xml` from **xml2** is used to read the xml file. The `as_list` function then turn it into an equivalent R list.
+Here `read_xml` from **xml2** is used to read the XML file. The `as_list` function then turn it into an equivalent R list.
 
 ### Expand the data to multiple rows by tags
 
@@ -75,7 +75,7 @@ xml_df = tibble::as_tibble(restaurant_license_xml) %>%
   unnest_longer(DATA)
 ```
 
-The xml becomes an extremely long list. As the xml is nested into multiple layers, the thing to do is to unnest the first layer. `unnest_longer` is a function in tidyr which unnest a list the split the values of the list to multiple rows (thus *longer*).
+The XML becomes an extremely long list. As the XML is nested into multiple layers, the thing to do is to unnest the first layer. `unnest_longer` is a function in tidyr which unnest a list the split the values of the list to multiple rows (thus *longer*).
 
 **DATA** in the parameter of `unnest_longer` refers to the **DATA** tag on the top layer of the xml. When it is unnested, the structure of the dataframe will return the data inside each tag. In addition, a new column named **DATA_id** is added to indicate which xml tag the data belongs to. Since we are unnesting the first layer, the **DATA_id** column includes these 7 values:
 
@@ -105,7 +105,7 @@ list(
 )
 ```
 
-Compare to the xml version of the data:
+Compare to the XML version of the data:
 
 ```xml
 <LP>
@@ -149,27 +149,27 @@ lp_df = lp_wider %>%
 The data then has to be unnested two times. I do not quite understand why this is required though. Maybe because the values in the cells a in the form of "list in list"/"nested list"? Following are the results after `lp_wider` is passed through 1. the first unnest and 2. the second unnest. After the first unnest, each column is still a type of list with length of 1. The data are exposed only after the second unnest.
 
 ![](/post/2021-03-xml-dataframe-r/unnest-first-time.png)
-<figcaption>tibble after unnest for the first time</figcaption>
+<figcaption>Tibble after the first unnest function</figcaption>
 
 ![](/post/2021-03-xml-dataframe-r/unnest-second-time.png)
-<figcaption>tibble after unnest for the second time</figcaption>
+<figcaption>Tibble after the second unnest function</figcaption>
 
-And finally, the xml is converted to a tidy tabular format for further analysis.
+And finally, the xml is converted to a tidy tabular format for further analysis, and we can use `write_csv` to export the tibble into csv.
 
 ![](/post/2021-03-xml-dataframe-r/converted-tibble.png)
-<figcaption>converted dataframe</figcaption>
+<figcaption>The converted tibble</figcaption>
 
 ---
 
 ## Other approaches
 
-### Manual edit and conversion
+### Manual editing and conversion
 
 The quick (though dumb) way to get the nested part of a XML is - manually delete the "outer" part! In the case of this resturant license XML, I only need the `<LPS>` part, and all other nodes (I am not sure about this is the correct terminology for XML) could be deleted. After that, I just need to use an onine [XML to CSV converter](https://www.convertcsv.com/xml-to-csv.htm) for the data format conversion.
 
 ### Using XML package
 
-The **XML** package is an older package to transform xml to dataframes. 
+The **XML** package is an older package to transform XML to dataframes. 
 
 https://blog.gtwang.org/r/r-xml-package-parsing-and-generating-xml-tutorial/
 
