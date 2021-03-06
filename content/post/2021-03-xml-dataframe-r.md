@@ -47,6 +47,9 @@ The tree strucutre of the XML is in the below form:
 
 **DEPARTMENT**, **GENERATION_DATE** and **LINK** are metadata. **TYPE_CODE**, **DIST_CODE** and **INFO_CODE** are data dictionary to store the ID used to encode data. Therefore, only the parts wrapped inside hte **LPS** is the "actual" data I need.
 
+![](/post/2021-03-xml-dataframe-r/xml-format.png)
+<figcaption>Composition of the XML</figcaption>
+
 ---
 
 ## Transform xml to dataframe with R
