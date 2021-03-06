@@ -1,6 +1,6 @@
 ---
 title: "Census Boundary Maps are lying to you"
-subtitle: "Land doesn't travel, people do"
+summary: "Land doesn't travel, people do"
 description: ""
 date: 2020-03-27
 draft: false
@@ -12,10 +12,6 @@ tags:
   - MAUP
 image: "2020-03-census-unit-wrong/Census_ResBldgs.jpg"
 ---
-
-Land doesn't travel, people do.
-
-<!--more-->
 
 ![img](https://cdn-images-1.medium.com/max/1600/1*COXCAs4jr15Et9HEquDZ6A.gif)
 

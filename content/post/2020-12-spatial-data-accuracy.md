@@ -1,6 +1,6 @@
 ---
 title: "Accuracy & Resolution of Spatial Data"
-subtitle: "Outrageous living density requires outrageous data resolution"
+summary: "Outrageous living density requires outrageous data resolution"
 description: ""
 date: 2020-12-03
 draft: false
@@ -10,12 +10,9 @@ tags:
 image: "2020-12-spatial-data-accuracy/world_spikes.png"
 ---
 
-Outrageous living density requires outrageous data resolution
-<!--more-->
-
-Image Credit: [Alasdair Rae](https://www.statsmapsnpix.com/2020/11/how-to-make-3d-population-density.html)
-
----
+<figcaption>
+Image Credit: Alasdair Rae (from https://www.statsmapsnpix.com/2020/11/how-to-make-3d-population-density.html)
+</figcaption>
 
 Just when I was doing some researches in living density for some map-making projects, I have been thinking about the issue of data accuracy in respect to data resolution again. I used these raster dataset for some recent map makings...
 

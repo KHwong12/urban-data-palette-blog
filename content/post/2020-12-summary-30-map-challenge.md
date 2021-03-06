@@ -1,6 +1,6 @@
 ---
 title: "My Thoughts on #30DayMapChallenge 2020"
-subtitle: "On the great journey of pursuing high-end cartography"
+summary: "On the great journey of pursuing high-end cartography"
 description: "On the great journey of pursuing high-end cartography"
 date: 2020-12-18
 draft: false
@@ -9,12 +9,6 @@ tags:
   - Cartography
   - 30 Day Map Challenge
 image: "2020-12-summary-30-map-challenge/30map_cover.png"
----
-
-On the great journey of pursuing high-end cartography
-
-<!--more-->
-
 ---
 
 On the last November, I joined the #30DayMapChallenge by [Topi Tjukanov](https://twitter.com/tjukanov) on Twitter. This challenge is nothing but create maps, based on the desired theme each day. The whole challenge is not a competition, yet just for enjoyment for mapmakers all around the globe. You could check the [official github repo](https://github.com/tjukanovt/30DayMapChallenge) for more information.

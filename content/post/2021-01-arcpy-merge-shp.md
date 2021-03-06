@@ -1,6 +1,6 @@
 ---
 title: "Merging split shapefiles scattered across different folders with arcpy"
-subtitle: "The case of combing land use zoning shapefiles (with same schema)"
+summary: "The case of combing land use zoning shapefiles with same schema"
 description: ""
 author: Kenneth Wong
 draft: false
@@ -18,12 +18,6 @@ output:
     variant: gfm
     preserve_yaml: true
 ---
-
-The case of combing land use zoning shapefiles (with same schema)
-
-<!--more-->
-
------
 
 ## Land Use Zoning Shapefiles, split away
 

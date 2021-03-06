@@ -1,6 +1,6 @@
 ---
 title: "Street Suffixes in Hong Kong"
-subtitle: "Visualising and analysing the distribution of street names"
+summary: "Visualising and analysing the distribution of street names"
 description: ""
 date: 2020-05-29
 draft: false
@@ -12,9 +12,6 @@ tags:
   - Hong Kong
 image: "2020-05-street-suffix/CoreUrban_CHIENG.png"
 ---
-
-How do you like the street naming? On maps.
-<!--more-->
 
 <!-- ![CoreUrban_CHIENG](/post/2020-05-street-suffix/CoreUrban_CHIENG.png) -->
 

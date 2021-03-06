@@ -1,6 +1,6 @@
 ---
 title: "How to make a stale map in ArcGIS Pro"
-subtitle: "Pseudo-, not-so-historic ferry services map"
+summary: "Pseudo-, not-so-historic ferry services map"
 description: ""
 date: 2020-09-02T22:02:13+08:00
 draft: false
@@ -11,10 +11,6 @@ tags:
   - Map
 image: "2020-09-stale-map/ferry_FINAL_min.jpg"
 ---
-
-Pseudo-, not-so-historic ferry services map
-
-<!--more-->
 
 ## TL;DR
 

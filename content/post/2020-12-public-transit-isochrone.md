@@ -1,6 +1,6 @@
 ---
 title: "Tools for Generating Public Transport Isochrone Maps"
-subtitle: "On the journey of finding public transport data routing services for Hong Kong"
+summary: "A few notes on finding tools to create isochrone map with public transit travel time"
 description: ""
 date: 2020-12-10
 draft: false
@@ -11,11 +11,6 @@ tags:
   - Accessibility
   - Public Transport
 image: "2020-12-public-transit-isochrone/traveltime-test.png"
----
-
-A few notes on finding tools to create isochrone map with public transit travel time
-
-<!--more-->
 ---
 
 I have a new project which needs to generate some [isochrone maps](https://wiki.openstreetmap.org/wiki/Isochrone). To be honest, isochrone maps sounds like a jargon for me - I find the term **Travel Time Map** more explicit and easy to understand. Originally, I call this type of map "Service Area map" since I usually make these maps in ArcMap/ArcGIS Pro with the network analyst extension. And that's [how ESRI calls this type of map](https://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/service-area.htm).

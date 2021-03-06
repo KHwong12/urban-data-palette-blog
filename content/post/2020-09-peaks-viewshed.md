@@ -1,5 +1,6 @@
 ---
 title: "Viewshed From Peaks"
+summary: "Quick round up of an interactive web map project"
 date: 2020-09-13T19:47:11+08:00
 subtitle: "Interactive web application"
 description: ""
@@ -11,10 +12,6 @@ tags:
   - Web Map
 image: "2020-09-peaks-viewshed/HKPeaks_Overview.png"
 ---
-
-Quick round up of an interactive web map project
-
-<!--more-->
 
 I made an interactive web map a few months before as a little project to practise some Javascript and web mapping skills.
 

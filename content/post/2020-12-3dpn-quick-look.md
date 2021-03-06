@@ -1,6 +1,6 @@
 ---
 title: "3D pedestrian network dataset of Hong Kong - A Quick Look"
-subtitle: "What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?"
+summary: "What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?"
 description: "What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?"
 author: Kenneth Wong
 draft: false
@@ -16,11 +16,6 @@ output:
   md_document:
     variant: gfm
     preserve_yaml: true
----
-
-What is the distribution of the 436,000 pedestrian walkways in terms of length and gradient?
-
-<!--more-->
 ---
 
 ### TL;DR

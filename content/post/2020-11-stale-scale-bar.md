@@ -1,6 +1,6 @@
 ---
 title: "Creating vintage, stale scale bar"
-subtitle: "A small follow-up of the stale map"
+summary: "A small follow-up on the old stale map, with a new scale bar"
 description: "A small follow-up of the stale map"
 date: 2020-11-11
 draft: false
@@ -9,12 +9,6 @@ tags:
   - ArcGIS Pro
   - Cartography
 image: "2020-11-stale-map-follow-up/scale-bar.jpg"
----
-
-A small follow-up on the old stale map, with a new scale bar
-
-<!--more-->
-
 ---
 
 [John Nelson](https://www.esri.com/arcgis-blog/author/j_nelson/) published two new video tutorials on creating hand-drawn vintage scale bars. I find this is the right time to revise my previous stale map - the scale bar looks too perfect and inorganic.
