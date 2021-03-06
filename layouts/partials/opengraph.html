@@ -6,7 +6,7 @@
 <meta property = 'og:description' content = '{{ with .Summary }}{{ . | truncate 150 }}{{ else }}{{ $params.description }}{{ end }}'>
 <meta property = 'og:url' content = '{{ .Permalink }}' />
 {{- with .Params.image }}
-<meta property = 'og:image' content = '{{ absURL (printf "images/%s" .) }}'/>
+<meta property = 'og:image' content = '{{ absURL (printf "%s" .) }}'/>
 {{- else }}
 <meta property = 'og:image' content = '{{ absURL (printf "images/%s" $params.logo) }}'/>
 {{- end }}
