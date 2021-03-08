@@ -8,6 +8,8 @@ canonifyurls = true
 # https://gohugo.io/templates/pagination/
 paginate = 200
 
+# If you want to use disqus, uncomment the line below
+disqusShortname = "urbandatapalette"
 
 # https://gohugo.io/getting-started/configuration-markup/
 [markup]
@@ -38,10 +40,6 @@ paginate = 200
 # pygmentsCodefencesGuessSyntax = true
 # pygmentsUseClasses = true
 # pygmentsOptions = ""
-
-
-# If you want to use disqus, uncomment the line below
-disqusShortname = "urbandatapalette"
 
 # ids used below are not valid. Replace with valid ones
 [params]
